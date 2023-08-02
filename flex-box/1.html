@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flexbox</title>
+
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			background-color: #eee;
+			width: 600px;
+			margin: 50px auto 0;
+			padding: 10px;
+			border: 3px solid #000;
+			width: 300px;
+
+			display: flex;
+			/*flex-direction: column;*/
+			flex-wrap: wrap;
+		}
+		
+		.item1{
+			background-color: orangered;
+			color: blue;
+
+		}
+		.item2{
+			background-color: yellowgreen;
+		}
+		.item3{
+			background-color: mediumpurple;
+		}
+		.item4{
+			background-color: hotpink;
+		}
+
+		
+		/*.item5{
+			background-color: blueviolet;
+		}
+		.item6{
+			background-color: greenyellow;
+		}
+		.item7{
+			background-color: darkcyan;
+		}
+		.item8{
+			background-color: black;
+		}
+		.item9{
+			background-color: blue;
+		}*/
+		
+		.item{
+			font-size: 20px;font-weight: bold;
+			margin: 5px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+                                
+	<h1 style="text-align: center;background: red;">Yahoo baba :example</h1>
+
+	<div class="container">
+		<div class="item item1">One</div>
+		<div class="item item2">Two</div>
+		<div class="item item3">Three</div>
+		<div class="item item4">Four</div>
+
+		<!-- <div class="item item5">Four</div>
+		<div class="item item6">five</div>
+		<div class="item item7">six</div>
+		<div class="item item8">Eight</div>
+		<div class="item item9">Nine</div> -->
+	</div>
+
+</body>
+</html>

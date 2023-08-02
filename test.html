@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tiel</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		header{
+			background-color: black;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			height: 50px;
+			align-items: center;
+		}
+		.header__middel > ul {
+			display: flex;
+			list-style: none;
+			height: 50px;
+			align-items: center;
+			gap: 20px;
+		}
+
+		.header__middel a {
+			text-decoration: none;
+			color: #fff;
+		}
+
+		/*.header_right >form > button*/
+		.header_right button{
+			margin-right: 10px;
+		}
+
+		.header_right input{
+			outline: none;
+		}
+
+		.header_left{
+			margin-left: 10px;
+		}
+
+		.header_left{
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="header_left">
+			<p>Logo</p>
+		</div>
+
+		<div class="header__middel">
+			<ul>
+                <li>
+                    <a href="javascript:void(0)">Business</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Entertainment</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Sports</a>
+                </li>
+            </ul>
+		</div>
+
+		<div class="header_right">
+			<form>
+                <input type="text" placeholder='Search'/>
+                <button>Search</button>
+            </form>
+		</div>
+	</header>
+</body>
+</html>

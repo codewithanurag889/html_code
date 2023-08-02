@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+		  margin: 0px;
+		  box-sizing: border-box;}
+
+		  body{
+		  	width: 100%;
+		  	display: flex;
+		  	background-color: skyblue; 
+		  	flex-direction: column;
+		  }
+		 header{
+		 	width:100%;
+		 	height: 10vh;
+		 	display:flex ;
+		 	gap: 20px;
+		 	background-color: #000;
+		 	color: #fff;
+		 	font-size: 20px;
+		 	text-transform: capitalize;
+		 	align-items: center;
+
+		 	/*justify-content: center;*/
+
+		 	/*text-transform: uppercase;*/
+		 	/*text-transform: lowercase;*/
+		 }
+		 .header-link{
+		 	cursor: pointer;
+		 	width: 100px;
+		 	height: 60px;
+		 	display: flex;
+		 	align-items: center;
+		 	justify-content: center;
+		 	/*justify-content: flex-start;*/
+		 	/*background-color: pink;*/
+		 }
+		 .header-link:hover{
+		 	background-color: silver;
+		 	color: #000;
+		 	/*border-radius: 57px;*/
+		 }
+
+		 .link{
+		 	text-decoration: none;
+		 	color: #fff;
+		 }
+
+		 .box{
+		 	width: 230px;
+		 	height: 200px;
+		 	display: flex;
+		 	flex-direction: row;
+		 	justify-content: center;
+		 	align-items: center;
+		 	gap: 20px;
+		 }
+		 .img-mota{
+		 	width: 100%;
+		 	height: 100%;
+		 	border: 3px solid green;
+		 }
+		 #box-wrapper{
+		 	width: 100%;
+		 	background-color: #ddd;
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 	flex-direction: column;
+		 	gap: 20px;
+		 }
+		 .abc{
+		 	width: 200px;
+		 	height: 200px;
+		 	display: flex;
+		 }
+		 #profile{
+		 	display: flex;
+		 }
+		 #profile-photo,#profile-desc{
+		 	width: 50%;
+		 }
+		 .img-mota-profile{
+		 	width: 100%;
+		 	height: 100%;
+		 }
+	</style>
+</head>
+<body>
+	<header>
+		<p class="header-link">
+			<a class="link" href="link.html">homepage</a>
+		</p>
+		<p class="header-link">answerkey</p>
+		<p class="header-link">admitcard</p>
+		<p class="header-link">notification</p>
+		<p class="header-link">about</p> 
+	</header>
+
+	<section id="box-wrapper">
+		<div class="box">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+		</div>
+
+		<div class="box">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+			<img src="../img/rohit.jpg" class="img-mota">
+		</div>
+	</section>
+
+	<section id="profile">
+		<div id="profile-photo">
+			<img src="../img/rohit.jpg" class="img-mota-profile">
+		</div>
+		<div id="profile-desc">
+			<h1>Name:anurag</h1>
+			<p>Mobile :3432423</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+</body>
+</html>

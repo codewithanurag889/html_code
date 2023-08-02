@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Title</title>
+
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		section{
+			min-height: 100vh;
+			width: 100%;
+			 display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+
+		}
+
+		.calender{
+			width: 300px;
+			height: 54vh;
+			background-color: pink;
+			box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.4);
+		}
+
+		.calender-item{
+			display: flex;
+
+		}
+
+		.calender-item p{
+			width: 50px;
+			height:50px;
+			border: 1px solid #ddd;
+			/*display: flex;
+			justify-content: center;
+			align-items: center;*/
+
+			text-align: center;
+			line-height: 50px;
+		}
+
+		.day_name{
+			font-weight: bold;
+		}
+
+		section > p{
+			background-color: black;
+			color: #fff;
+			width: 300px;
+			text-align: center;
+			padding: 10px;
+			font-weight: bold;
+		}		
+
+		section > p > span{
+			
+			color:red;
+		}
+		p{
+			transition: all 0.24s;
+		}
+
+		p:hover{
+			background-color: black;
+			color: #fff;
+			cursor: pointer;
+		}
+
+	</style>
+</head>
+<body>
+	<section>
+		<p>January <span>2023</span></p>
+
+		<div class="calender">
+			<div class="calender-item">
+				<p class="day_name">Sun</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+
+			<div class="calender-item">
+				<p class="day_name">Mon</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+
+			<div class="calender-item">
+				<p class="day_name">Tues</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+
+			<div class="calender-item">
+				<p class="day_name">Wed</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+
+			<div class="calender-item">
+				<p class="day_name">Thur</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+
+			<div class="calender-item">
+				<p class="day_name">Fri</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+
+			<div class="calender-item">
+				<p class="day_name">Sat</p>
+				<p>01</p>
+				<p>08</p>
+				<p>15</p>
+				<p>22</p>
+				<p>29</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
