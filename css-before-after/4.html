@@ -1,0 +1,28 @@
+<div class="quote">
+  <p>This is a sample quote.</p>
+</div>
+<style>
+  .quote {
+  position: relative;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.quote::before {
+  content: '\201C'; /* Left double quotation mark */
+  font-size: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.quote::after {
+  content: '\201D'; /* Right double quotation mark */
+  font-size: 24px;
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+}
+
+</style>

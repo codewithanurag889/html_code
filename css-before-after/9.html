@@ -1,0 +1,38 @@
+<div class="polaroid">
+  <img src="your-photo.jpg" alt="Polaroid Photo">
+</div>
+<style type="text/css">
+  .polaroid {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.polaroid::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  z-index: -1;
+}
+
+.polaroid::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 40%;
+  height: 8px;
+  background-color: #ccc;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+</style>

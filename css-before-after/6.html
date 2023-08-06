@@ -1,0 +1,21 @@
+<div class="content-box">
+  <p>This is some content.</p>
+</div>
+<style type="text/css">
+  .content-box {
+  position: relative;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.content-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 20px 20px 0;
+  border-style: solid;
+  border-color: transparent #3498db transparent transparent;
+}
+
+</style>

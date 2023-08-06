@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Tooltip Example</title>
+
+    <style type="text/css">
+        .tooltip-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .tooltip {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .tooltip-text {
+            display: none;
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .tooltip:hover .tooltip-text {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tooltip-container">
+        <span class="tooltip">Hover over me
+            <span class="tooltip-text">This is a tooltip</span>
+        </span>
+    </div>
+</body>
+</html>

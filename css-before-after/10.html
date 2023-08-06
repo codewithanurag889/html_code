@@ -1,0 +1,25 @@
+<div class="ribbon-banner">
+  <p>Special Offer</p>
+</div>
+<style>
+  .ribbon-banner {
+  position: relative;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.ribbon-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -15px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: transparent #3498db transparent transparent;
+}
+
+</style>
