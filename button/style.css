@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#button_wrap{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.button_wrap_child{
+	display: flex;
+	gap: 20px;
+}
+
+
+/*1. **Simple Solid Button:***/
+.simple-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 2. **Outlined Button:***/
+.outlined-button {
+  padding: 8px 16px;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/*3. **Gradient Button:***/
+.gradient-button {
+  padding: 12px 24px;
+  background: linear-gradient(to right, #f39c12, #e74c3c);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+/*4. **Rounded Button with Icon:***/
+.icon-button {
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*5. **3D Button with Shadow:***/
+.three-d-button {
+  padding: 10px 20px;
+  background-color: #34495e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #2c3e50;
+  cursor: pointer;
+}
+
+
+/*6. **Floating Action Button (FAB):***/
+.fab-button {
+  width: 60px;
+  height: 60px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*7. **Pill Button:***/
+.pill-button {
+  padding: 8px 16px;
+  background-color: #9b59b6;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/*8. **Hover Effect Button:***/
+.hover-effect-button {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-effect-button:hover {
+  background-color: #16a085;
+}
+
+/*9. **Gradient Border Button:***/
+
+.gradient-border-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #3498db;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #e74c3c, #3498db);
+  border-image-slice: 1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*10. **Animated Button:***/
+.animated-buttons{
+  padding: 12px 24px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.animated-buttons:hover {
+  transform: scale(1.1);
+}
+
+/*11. **Underline Hover Effect Button:***/
+.underline-button {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #3498db;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.underline-button:hover {
+  border-bottom-color: #3498db;
+}
+
+/*12. **Split Button:***/
+.split-button {
+  padding: 10px 26px;
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.split-button::after {
+  content: "\f107"; /* FontAwesome caret down icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.split-button:hover::after {
+  content: "\f106"; /* FontAwesome caret up icon on hover */
+}
+
+/*13. **Neon Glow Button:***/
+.neon-button {
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 20px rgba(173, 216, 230, 0.7);
+}
+
+/*14. **Outlined Hover Effect Button:***/
+.outlined-hover-button {
+  padding: 8px 16px;
+  border: 2px solid #3498db;
+  color: #3498db;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.outlined-hover-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+
+/*15. **Toggle Button:***/
+.toggle-button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toggle-button.active {
+  background-color: #e74c3c;
+}
