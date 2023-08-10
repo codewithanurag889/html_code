@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Form with Background Image</title>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="ele-box">
+        <label for="name" class="label">Name:</label>
+        <input type="text" class="input" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      
+      <div class="ele-box">
+        <label for="email" class="label">Email:</label>
+        <input type="email" id="email" class="input" name="email" placeholder="Your Email" required>  
+      </div>
+      
+      <div class="ele-box">
+        <label for="message" class="label">Message:</label>
+        <textarea id="message" name="message" class="input" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      
+      <div id="checkbox-radio-wrap">
+        <label>Gender:</label>
+        <div class="checkbox-radio-child">
+            <input type="radio" name="gender" value="male"> Male &nbsp;&nbsp;
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+      </div>
+
+      <div id="checkbox-radio-wrap">
+        <label>Interests:</label>
+        <div class="checkbox-radio-child">
+            <input type="checkbox" name="interests" value="male"> Programming&nbsp;&nbsp;
+            <input type="checkbox" name="interests" value="female"> Design
+        </div>
+      </div>
+      
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

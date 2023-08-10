@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Position Example 2</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+  }
+
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Header</h1>
+  </div>
+  <div class="sidebar">
+    <h2>Sidebar</h2>
+    <p>This is the sidebar content.</p>
+  </div>
+  <div class="content">
+    <h2>Content Area</h2>
+    <p>This is the main content area. It's positioned using margin-left.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae tortor ac elit aliquam iaculis et in urna.</p>
+  </div>
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+</body>
+</html>

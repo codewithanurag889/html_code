@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sticky Timeline</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .timeline {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .timeline-item {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+
+  .timeline-item.left {
+    float: left;
+    clear: both;
+    width: 45%;
+    position: sticky;
+    left: 0;
+  }
+
+  .timeline-item.right {
+    float: right;
+    clear: both;
+    width: 45%;
+    position: sticky;
+    right: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="timeline">
+    <div class="timeline-item left">
+      <h2>Left Item 1</h2>
+      <p>This is a left timeline item.</p>
+    </div>
+    <div class="timeline-item right">
+      <h2>Right Item 1</h2>
+      <p>This is a right timeline item.</p>
+    </div>
+    <div class="timeline-item left">
+      <h2>Left Item 2</h2>
+      <p>This is another left timeline item.</p>
+    </div>
+    <div class="timeline-item right">
+      <h2>Right Item 2</h2>
+      <p>This is another right timeline item.</p>
+    </div>
+    <!-- Repeat more items as needed -->
+  </div>
+</body>
+</html>
