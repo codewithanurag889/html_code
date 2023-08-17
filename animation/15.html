@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animation Example</title>
+<style>
+  .cloud-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    overflow: hidden;
+  }
+
+  .cloud {
+    width: 120px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: relative;
+    animation: floatCloud 5s ease-in-out infinite;
+  }
+
+  @keyframes floatCloud {
+    0%, 100% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(100%);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="cloud-container">
+    <div class="cloud"></div>
+  </div>
+</body>
+</html>

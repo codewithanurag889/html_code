@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four Boxes Design</title>
+<style>
+  /*
+  Short
+
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+  animation: ankit 10s ease-in 2s infinite alternate;
+  */
+
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 10px;
+  }
+
+  /*ease*/
+  .ease-animation {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation: easeExample 15s ease infinite ;
+    }
+
+    @keyframes easeExample {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(1000px);
+      }
+    }
+
+  /*ease*/
+
+  /*ease-in*/
+  .ease-in-animation {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: easeInExample 15s ease-in infinite ;
+    }
+
+    @keyframes easeInExample {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(1000px);
+      }
+    }
+
+  /*ease-in*/
+
+  /*ease-out*/
+  .ease-out-animation {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      animation: easeOutExample 15s ease-out infinite ;
+    }
+
+    @keyframes easeOutExample {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(1000px);
+      }
+    }
+
+  /*ease-out*/
+
+  /*linear*/
+  .linear-animation {
+      width: 100px;
+      height: 100px;
+      background-color: orange;
+      animation: linearExample 15s linear infinite ;
+    }
+
+    @keyframes linearExample {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(1000px);
+      }
+    }
+
+  /*linear*/
+
+  button{
+    background-color: orange;
+    padding: 10px 30px;
+    border: none;
+    animation: ease 0.25s;
+  }
+
+  button:hover{
+    background-color: blue;
+  }
+</style>
+</head>
+<body>
+  <div class="box linear-animation"></div>
+  <div class="box ease-animation"></div>
+  <div class="box ease-in-animation"></div>
+  <div class="box ease-out-animation"></div>
+
+  <button>Send</button>
+</body>
+</html>

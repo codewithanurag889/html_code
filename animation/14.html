@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animation Example</title>
+<style>
+  .starburst-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+
+  .starburst {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    animation: rotateStarburst 6s linear infinite;
+  }
+
+  .ray {
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #3498db;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+  }
+
+  @keyframes rotateStarburst {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes animateRays {
+    0%, 100% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(0.5);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="starburst-container">
+    <div class="starburst">
+      <div class="ray" style="transform: rotate(0deg);"></div>
+      <div class="ray" style="transform: rotate(30deg);"></div>
+      <div class="ray" style="transform: rotate(60deg);"></div>
+      <div class="ray" style="transform: rotate(90deg);"></div>
+      <div class="ray" style="transform: rotate(120deg);"></div>
+      <div class="ray" style="transform: rotate(150deg);"></div>
+      <div class="ray" style="transform: rotate(180deg);"></div>
+      <div class="ray" style="transform: rotate(210deg);"></div>
+      <div class="ray" style="transform: rotate(240deg);"></div>
+      <div class="ray" style="transform: rotate(270deg);"></div>
+      <div class="ray" style="transform: rotate(300deg);"></div>
+      <div class="ray" style="transform: rotate(330deg);"></div>
+    </div>
+  </div>
+</body>
+</html>

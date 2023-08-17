@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animation Example</title>
+<style>
+  .candle-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+
+  .candle {
+    width: 20px;
+    height: 200px;
+    background-color: #f39c12;
+    position: relative;
+    animation: flicker 1s infinite alternate;
+  }
+
+  .flame {
+    width: 40px;
+    height: 74px;
+    background-color: #ff6347;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 197px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: flicker 0.5s infinite alternate-reverse;
+}
+
+  @keyframes flicker {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.6;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="candle-container">
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+  </div>
+</body>
+</html>
