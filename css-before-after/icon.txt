@@ -114,4 +114,35 @@
    - Checkmark: `content: "\2713";`
    - Cross Mark: `content: "\2717";`
 
+7 ** Emoji
+   - Cat Face Emoji: `content: "\1F431";`
+   - Dog Face Emoji: `content: "\1F436";`
+   - Cocktail Glass Emoji: `content: "\1F378";`
+   - Soccer Ball Emoji: `content: "\26BD";`
+   - Ice Cream Emoji: `content: "\1F368";`
+   - Pizza Emoji: `content: "\1F355";`
+   - Bicycle Emoji: `content: "\1F6B2";`
+   - Crescent Moon Emoji: `content: "\1F319";`
+   - Panda Face Emoji: `content: "\1F43C";`
+   - Camera with Flash Emoji: `content: "\1F4F8";`
+   - Palm Tree Emoji: `content: "\1F334";`
+   - Tree Emoji: `content: "\1F333";`
+   - Peace Sign Emoji: `content: "\270C";`
+   - Sparkles Emoji: `content: "\2728";`
+   - Birthday Cake Emoji: `content: "\1F382";`
+   - Party Popper Emoji: `content: "\1F389";`
+   - Heart Eyes Emoji: `content: "\1F60D";`
+   - Heart Emoji: `content: "\2764";`
+   - Smiling Face sunglass Emoji: `content: "\1F60E";`
+   - Smiling Face Emoji: `content: "\1F604";`
+   - Rocket Emoji: `content: "\1F680";`
+   - Fire Emoji: `content: "\1F525";`
+   - Thumbs Up Emoji: `content: "\1F44D";`
+   - Clapping Hands Emoji: `content: "\1F44F";`
+   - Sun Emoji: `content: "\2600";`
+   - Moon Emoji: `content: "\1F319";`
+
+
+
+
 
