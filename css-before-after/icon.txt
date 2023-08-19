@@ -1,0 +1,117 @@
+
+1. **Icons and Symbols:**
+   - Checkmark: `content: "\2713";`
+   - Cross Mark: `content: "\2717";`
+   - Star: `content: "\2605";`
+   - Heart: `content: "\2665";`
+   - Arrow Right: `content: "\2192";`
+   - Arrow Down: `content: "\2193";`
+   - Plus Sign: `content: "\002B";`
+   - Minus Sign: `content: "\2212";`
+   - Ellipsis: `content: "\2026";`
+
+2. **Quotation Marks:**
+   - Left Double Quotation Mark: `content: "\201C";`
+   - Right Double Quotation Mark: `content: "\201D";`
+   - Left Single Quotation Mark: `content: "\2018";`
+   - Right Single Quotation Mark: `content: "\2019";`
+
+3. **Bullet Points:**
+   - Solid Circle: `content: "\2022";`
+   - Hollow Circle: `content: "\25E6";`
+   - Square: `content: "\25A0";`
+   - Triangle: `content: "\25B2";`
+
+4. **Unicode Emojis:**
+   - Smiling Face: `content: "\1F604";`
+   - Thumbs Up: `content: "\1F44D";`
+   - Heart Eyes: `content: "\1F60D";`
+   - Sparkles: `content: "\2728";`
+
+5. **CSS Shapes:**
+   - Empty Box: `content: ""; border: 1px solid black;`
+   - Circle: `content: ""; border-radius: 50%; width: 20px; height: 20px;`
+   - Triangle: `content: ""; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 20px solid black;`
+
+6. **Custom Background Images:**
+   - `content: ""; background: url('path-to-image.png') no-repeat center center;`
+
+
+
+1. **Weather Icons:**
+   - Sun: `content: "\2600";`
+   - Cloud: `content: "\2601";`
+   - Umbrella: `content: "\2614";`
+   - Snowflake: `content: "\2744";`
+
+2. **Math Symbols:**
+   - Pi Symbol: `content: "\03C0";`
+   - Infinity: `content: "\221E";`
+   - Square Root: `content: "\221A";`
+
+3. **Currency Symbols:**
+   - Dollar Sign: `content: "\0024";`
+   - Euro Sign: `content: "\20AC";`
+   - Pound Sterling: `content: "\00A3";`
+   - Yen Sign: `content: "\00A5";`
+
+4. **Shapes and Arrows:**
+   - Right Arrow: `content: "\2192";`
+   - Left Arrow: `content: "\2190";`
+   - Up Arrow: `content: "\2191";`
+   - Down Arrow: `content: "\2193";`
+   - Right Triangle: `content: "\25B6";`
+
+5. **Social Media Icons:**
+   - Facebook: `content: "\f09a";` (Font Awesome)
+   - Twitter: `content: "\f099";` (Font Awesome)
+   - Instagram: `content: "\f16d";` (Font Awesome)
+   - LinkedIn: `content: "\f0e1";` (Font Awesome)
+
+6. **Custom Characters and Symbols:**
+   - Heart: `content: "❤";`
+   - Star: `content: "★";`
+   - Music Note: `content: "♪";`
+   - Coffee Cup: `content: "☕";`
+
+
+
+1. **Arrows and Navigation:**
+   - Double Right Arrow: `content: "\00BB";`
+   - Double Left Arrow: `content: "\00AB";`
+   - Right-pointing Angle Bracket: `content: "\3009";`
+   - Left-pointing Angle Bracket: `content: "\3008";`
+   - Right-pointing Double Angle Quotation Mark: `content: "\00BB";`
+   - Left-pointing Double Angle Quotation Mark: `content: "\00AB";`
+
+2. **Chess Symbols:**
+   - White King: `content: "\2654";`
+   - Black Queen: `content: "\265B";`
+   - White Rook: `content: "\2656";`
+   - Black Knight: `content: "\265E";`
+
+3. **Weather and Nature:**
+   - Lightning Bolt: `content: "\26A1";`
+   - Cloud with Lightning: `content: "\26C8";`
+   - Crescent Moon: `content: "\263D";`
+   - Earth Globe: `content: "\1F30D";`
+
+4. **Food and Drinks:**
+   - Pizza Slice: `content: "\1F355";`
+   - Hamburger: `content: "\1F354";`
+   - Wine Glass: `content: "\1F377";`
+   - Coffee Cup: `content: "\2615";`
+
+5. **Miscellaneous Symbols:**
+   - Envelope: `content: "\2709";`
+   - Telephone: `content: "\260E";`
+   - Camera: `content: "\1F4F7";`
+   - Clock: `content: "\23F0";`
+
+6. **Unicode Dingbats:**
+   - Right Arrow: `content: "\2794";`
+   - Star: `content: "\2726";`
+   - Checkmark: `content: "\2713";`
+   - Cross Mark: `content: "\2717";`
+
+

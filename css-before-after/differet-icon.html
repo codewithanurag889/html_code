@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Differenct icon</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.heading {
+			position: relative;
+			font-style: italic;
+			padding: 15px;
+			margin: 20px 0;
+		}
+
+      .heading::before {
+        content: "\2605";
+        font-size: 24px;
+        position: absolute;
+        top: 17px;
+        left: -10px;
+        color: #3498db;
+      }
+
+      .heading::after {
+        content: "\2605";
+        font-size: 24px;
+        position: absolute;
+        top: 17px;
+        right: -10px;
+        color: #3498db;
+      }
+		.heading2 {
+			position: relative;
+			font-style: italic;
+			padding: 15px;
+			margin: 20px 0;
+		}
+
+      .heading2::before {
+        content: "\1F604";
+        font-size: 24px;
+        position: absolute;
+        top: 17px;
+        left: -21px;
+        color: #3498db;
+      }
+
+      .heading2::after {
+        content: "\2713";
+        font-size: 24px;
+        position: absolute;
+        top: 17px;
+        right: -10px;
+        color: #3498db;
+      }
+
+      .heading3 {
+			position: relative;
+			font-style: italic;
+			padding: 15px;
+			margin: 20px 0;
+		}
+
+      .heading3::before {
+        content: "\2610";
+        font-size: 24px;
+        position: absolute;
+        top: 17px;
+        left: -21px;
+        color: #3498db;
+      }
+
+      .heading3::after {
+        content: "\2192";
+        font-size: 24px;
+        position: absolute;
+        top: 17px;
+        right: -10px;
+        color: #3498db;
+      }
+	</style>
+</head>
+<body>
+	<h1 class="heading">Latest Photo</h1>
+	<h1 class="heading2">Hello</h1>
+	<h1 class="heading3">Hello</h1>
+</body>
+</html>

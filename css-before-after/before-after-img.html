@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .icon-box {
+      position: relative;
+      padding: 20px 40px;
+      background-color: #f0f0f0;
+      width: 300px;
+      margin: 50px;
+      display: inline-block;
+    }
+
+    .icon-box::before {
+        content: "";
+        display: inline-block;
+        width: 36px;
+        height: 35px;
+        background: url(star.png) no-repeat center center;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: -17px;
+        transform: translateY(-50%);
+    }
+
+    .icon-box::after {
+        content: "";
+        display: inline-block;
+        width: 36px;
+        height: 35px;
+        background: url(star.png) no-repeat center center;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        /*left: -17px;*/
+        transform: translateY(-50%);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="icon-box">Content</div>
+</body>
+</html>
