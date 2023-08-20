@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <button id="openModalBtn" onclick="showModal()">Open Modal</button>
+  <div id="modal" class="modal" >
+    <div class="modal-content animated">
+      <span class="close-btn" id="closeModalBtn" onclick="hideModal()">&times;</span>
+      <p>This is an animated modal.</p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    function showModal(){
+      document.querySelector('.modal').style.display = 'unset';
+    }
+
+    function hideModal(){
+      document.querySelector('.modal').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
